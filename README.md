@@ -1,70 +1,14 @@
-# Getting Started with Create React App
+Teste feito por Joao Ricardo Cavali.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Para essa aplicação, decidi criar o formulário de registro de times e de competições em separado.
 
-## Available Scripts
+Nos formulário de registro dos times, criei um state para armazenas os times criados e um state para armazenar esses times em uma lista. Os dados são capturados de um formulário ainda simples e adicionado no final da lista. 
+Infelizmente nessa parte não consegui fiunalizar a tempo devido a um problema ainda desconhecido para mim aonde quando se cria um novo time, ele modifica a lista inteira em vez de só adicionar no final dela. Devido a isso a aplicação toda não se tornou tão prática ainda.
 
-In the project directory, you can run:
+Os times criados aparecem embaixo do formulário de registro.
 
-### `yarn start`
+Quanto as competições, segui uma linha parecida aonde um formulário simples captura os dados e adiciona a competição em uma lista de competições. Também devido a falta de tempo, não consegui implementar a lista de times para vinculação ao campeonato direto na criação, como foi minha idéia. Imagino na verdade que devo utilizar Redux nessa parte, já que preciso que os dados do state de lista de times fique disponível para as competições e eles não são filhos um do outro.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Ainda não implementar uma lógica de jogo, aonde em uma nova página a tabela estaria visível a todos com as pontuações de cada partida podendo serem atualizadas ali mesmo, e criando-se o alerta em verde quando houvesse um vencedor imediato, como solicitado no teste.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Design, layout, CSS estão nos meus planos para essa aplicação também.
